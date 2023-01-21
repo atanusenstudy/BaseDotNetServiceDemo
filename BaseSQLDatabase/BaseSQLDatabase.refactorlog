@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c5d9367e-8116-43c2-b0da-464084045b65" ChangeDateTime="01/20/2023 08:07:59">
+    <Property Name="ElementName" Value="[dbo].[User].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1b3acd6a-9dce-433b-860e-7b8736166c46" ChangeDateTime="01/20/2023 08:19:14">
+    <Property Name="ElementName" Value="[dbo].[Organization].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Organization]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OrganizationId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cca1dd09-12d4-49ef-816b-af4b2deee3b0" ChangeDateTime="01/20/2023 08:20:29">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="de32052f-6e7f-43ea-a0b9-eb1daf55235c" ChangeDateTime="01/20/2023 08:23:27">
+    <Property Name="ElementName" Value="[dbo].[Lookup].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LookupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4bbd40fa-4248-4943-8ff7-f0d7c3f92a40" ChangeDateTime="01/20/2023 08:25:26">
+    <Property Name="ElementName" Value="[dbo].[Lookup].[UserTypeLookupId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GroupName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9db38560-93e2-4a50-8c24-02b71f3efb0d" ChangeDateTime="01/20/2023 08:25:59">
+    <Property Name="ElementName" Value="[dbo].[Lookup].[UserTypeLookupId1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Value" />
+  </Operation>
+</Operations>

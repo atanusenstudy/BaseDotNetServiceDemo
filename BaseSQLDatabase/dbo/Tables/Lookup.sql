@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Lookup]
+(
+	[LookupId] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[GroupName] VARCHAR(50) NOT NULL,
+	[Value] VARCHAR(50) NOT NULL,
+	[Description] VARCHAR(50) NOT NULL,
+	[SortOrder] BIGINT NOT NULL,
+    [DateCreated] DATETIME NOT NULL DEFAULT getDate(),
+    [IsDeleted] BIT NOT NULL DEFAULT 0
+)
