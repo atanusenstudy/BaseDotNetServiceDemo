@@ -1,4 +1,4 @@
-using BaseDotNetServices.BusinessLogic;
+using BaseDotNetServices.BusinessLogic.Rules;
 using FluentAssertions;
 
 namespace BaseDotNetServices.bdd.test.StepDefinitions

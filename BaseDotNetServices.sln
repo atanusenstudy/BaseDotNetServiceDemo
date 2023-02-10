@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseDotNet", "BaseDotNetServices\BaseDotNet.csproj", "{E1C72BA2-E92D-4A6E-9482-23D9B7BEEBBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseDotNetServices", "BaseDotNetServices\BaseDotNetServices.csproj", "{E1C72BA2-E92D-4A6E-9482-23D9B7BEEBBE}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BaseSQLDatabase", "BaseSQLDatabase\BaseSQLDatabase.sqlproj", "{13718EFA-2979-4AEE-A135-672C047EB0FC}"
 EndProject
@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{F7A44151-F5CE-4500-A09D-58AFF3DF6A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDotNetServices.bdd.test", "BaseDotNetServices.bdd.test\BaseDotNetServices.bdd.test.csproj", "{75FB8277-B4F7-4EB8-92D9-69144CB21BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseDotNetServices.bdd.test", "BaseDotNetServices.bdd.test\BaseDotNetServices.bdd.test.csproj", "{75FB8277-B4F7-4EB8-92D9-69144CB21BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDotNetServices.BusinessLogic", "BaseDotNetServices.BusinessLogic\BaseDotNetServices.BusinessLogic.csproj", "{DF811536-ECF8-47C6-A91B-0B23B83E368C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseDotNetServices.BusinessLogic", "BaseDotNetServices.BusinessLogic\BaseDotNetServices.BusinessLogic.csproj", "{DF811536-ECF8-47C6-A91B-0B23B83E368C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿namespace BaseDotNetServices.BusinessLogic
+﻿namespace BaseDotNetServices.BusinessLogic.Rules
 {
     public class Calculator
     {
