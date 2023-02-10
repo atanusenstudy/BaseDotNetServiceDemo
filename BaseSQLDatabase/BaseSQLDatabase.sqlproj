@@ -68,15 +68,12 @@
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\Tables\Organization.sql" />
     <Build Include="dbo\Tables\Lookup.sql" />
+    <Build Include="Scripts\Organization.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BaseSQLDatabase.refactorlog" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Scripts\Script1.sql" />
-    <None Include="Scripts\Organization.sql" />
   </ItemGroup>
 </Project>
