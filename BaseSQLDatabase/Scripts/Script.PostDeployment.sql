@@ -9,4 +9,5 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-:r .\Script1.sql
+
+:r .\Organization.sql
