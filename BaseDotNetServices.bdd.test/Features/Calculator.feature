@@ -7,7 +7,12 @@ Link to a feature: [Calculator](BaseDotNetServices.bdd.test/Features/Calculator.
 
 @mytag
 Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
+	Given the first number is <FirstNumber>
+	And the second number is <SecondNumber>
 	When the two numbers are added
-	Then the result should be 120
+	Then the result should be <Result>
+
+	Examples: 
+	| FirstNumber | SecondNumber | Result |
+	| 50          | 60           | 110    |
+	| 10          | 20           | 30     |

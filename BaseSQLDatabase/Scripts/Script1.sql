@@ -21,5 +21,3 @@ WHEN NOT MATCHED BY SOURCE THEN
 DELETE;
 
 SET IDENTITY_INSERT dbo.Organization OFF;  
-
-          
